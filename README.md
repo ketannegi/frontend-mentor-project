@@ -47,7 +47,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Ketan_2000](https://github.com/ketannegi)
+- Website - [Ketan_2000](https://ketannegi.github.io/frontend-mentor-project/)
 - Frontend Mentor - [@ketannegi](https://www.frontendmentor.io/profile/ketannegi)
 
 ## Acknowledgments
