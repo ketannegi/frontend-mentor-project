@@ -97,7 +97,13 @@ main p {
     margin: 10px;
   }
 }
+footer {
+  font-size: 10px;
+  margin: 10px;
 
+  text-align: end;
+}
+/* -------------------------max-width: 620px--------------- */
 @media (max-width: 620px) {
   body {
     background-color: hsl(0, 0%, 98%);
