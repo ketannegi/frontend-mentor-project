@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+}
+header {
+  margin: 40px;
+  text-align: center;
+  font-size: 15px;
+}
+h1 {
+  color: rgba(0, 0, 0, 0.761);
+}
+header span {
+  font-size: 1.1em;
+  font-weight: 150;
+  opacity: 0.4;
+}
+header p {
+  margin: 0 auto;
+  width: 32%;
+  opacity: 0.4;
+  font-weight: 500;
+}
+
+.container {
+  margin: 0 30px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(150px, auto));
+  /* justify-items: center; */
+  justify-content: center;
+}
+
+.container > * {
+  max-width: 350px;
+  height: 220px;
+  position: relative;
+}
+.content-clss {
+  /* border: 1px solid; */
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.536);
+  background-color: rgba(255, 255, 255, 0.867);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 15px;
+}
+.clss-builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  grid-column: 2 / span 1;
+}
+.clss-calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+.clss-supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+}
+.clss-karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.clss-supervisor,
+.clss-calculator {
+  transform: translateY(50%);
+}
+img {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  margin: 30px;
+}
+h2 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+main p {
+  font-size: 1em;
+  font-size: 200;
+  opacity: 0.5;
+}
+@media (max-width: 750px) {
+  img {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 620px) {
+  body {
+    background-color: hsl(0, 0%, 98%);
+  }
+  header p {
+    margin: 0 auto;
+    width: 80%;
+    opacity: 0.5;
+    font-weight: 500;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-items: center; */
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .container > * {
+    margin: 0 auto;
+    width: 350px;
+    height: 220px;
+    position: relative;
+  }
+  .clss-supervisor,
+  .clss-calculator {
+    transform: translateY(0);
+  }
+}
