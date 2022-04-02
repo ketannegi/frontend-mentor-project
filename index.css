@@ -89,6 +89,14 @@ main p {
   font-size: 200;
   opacity: 0.5;
 }
+footer {
+  font-size: 10px;
+  margin: 10px;
+
+  text-align: end;
+}
+
+
 @media (max-width: 750px) {
   img {
     position: absolute;
